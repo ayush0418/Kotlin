@@ -1,0 +1,26 @@
+fun  main() 
+{
+    val num = 14
+    when (num) 
+    {
+        0 -> println("Zero")
+        1 -> println("One")
+        2 -> println("Two")
+        3 -> println("Three")
+        4 -> println("Four")
+        else -> println("None of the above")
+
+    }
+    when 
+    {
+        num > 0 -> println("Number is positive")
+        num < 0 -> println("Number is negative")
+        else -> println("Both are equal")
+    }
+}
+
+/*
+OUTPUT
+Four
+Number is positive
+*/

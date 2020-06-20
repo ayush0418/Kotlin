@@ -1,0 +1,37 @@
+fun main()
+{
+    var i = 0
+    var j = 20
+    
+    // Increment by 2
+    while(i<=10)
+    {
+        println(i)
+        i+=2
+    }
+    println()
+    
+    // Decrement by 2
+    while(j>=10)
+    {
+        println(j)
+        j -= 2
+    }
+}
+
+/* 
+OUTPUT
+0
+2
+4
+6
+8
+10
+
+20
+18
+16
+14
+12
+10
+*/

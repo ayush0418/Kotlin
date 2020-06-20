@@ -1,0 +1,15 @@
+fun main()
+{
+    val a = arrayOf("a","b","c","d")
+    for(i in 0 until a.size)
+        println("${a[i]}")
+        println()
+}
+
+/*  
+OUTPUT
+a
+b
+c
+d
+*/

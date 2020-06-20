@@ -1,0 +1,19 @@
+import kotlin.math.max
+import kotlin.math.min
+// when you git alt+enter while writing the ma() function, the IDE automatically imports the function and writes this line
+
+fun main()
+{
+   println(calMax(24, 53))
+   println(calMin(25,52))
+}
+
+fun calMax(a: Int, b: Int): Int
+{
+   return max(a, b)  // max(a, b) is function present in the kotlin library
+}
+
+fun calMin(a: Int, b: Int): Int
+{
+   return min(a,b)
+}

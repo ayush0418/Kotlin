@@ -1,0 +1,27 @@
+import java.util.*
+
+fun main() 
+{
+    val myArray :Array<Any> = arrayOf(1, 1.0, 'I', "Internship", false)                // This Array will contain any type of data inside it
+    val stringArray : Array<String> =arrayOf("Hello", "Kotlin", "Programmers")         // This Array will contain only string type of data in it
+    val Array = arrayOf(1, 2, "HI", 'I', true)                                         // Syntax changed
+    
+    //In the program we have not use Array so, we can write in this form  arrayOf(1, 2, "HI", 'I', true) also
+
+    println(stringArray[1])
+    stringArray[1]= "My friend"
+    println(stringArray[1])      // println(stringArray.get(1)) can also be used
+
+    println(stringArray.size)
+    println(Arrays.toString(stringArray))  // Prints the stringArray
+
+    println(Arrays.toString(myArray))  // Prints the myArray
+}
+/* 
+OUTPUT
+Kotlin
+My friend
+3
+[Hello, My friend, Programmers]
+[1, 1.0, I, Internship, false]
+*/

@@ -1,0 +1,14 @@
+// Syntax for ARRAY LIST
+// val/var listName = arrayListOf<data_type>("list_of_items")
+// we can avoid the use of <data_type> because the IDE knows
+
+fun main()
+{
+    val myArrayList = arrayListOf("Lionel Messi", "Wayne Rooney", "Luka Modric", "Eden Hazard", "Sergio Aguero")
+    println(myArrayList)
+}
+
+/*
+OUTPUT
+[Lionel Messi, Wayne Rooney, Luka Modric, Eden Hazard, Sergio Aguero]
+*/

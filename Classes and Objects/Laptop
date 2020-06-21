@@ -1,0 +1,27 @@
+class Laptop 
+{
+    var ram: Int = 8
+    var brand: String = "HP"
+    var hdd: Int = 1000
+
+    fun performComputations(){
+        println("I perform computations")
+    }
+}
+
+fun main()
+{
+    val laptop = Laptop()
+    println("${laptop.ram} GB")
+    println(laptop.brand)
+    println("${laptop.hdd} GB")
+    laptop.performComputations()
+}
+
+/* 
+OUTPUT
+8 GB
+HP
+1000 GB
+I perform computations
+ */

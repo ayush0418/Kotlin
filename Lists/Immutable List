@@ -1,0 +1,12 @@
+// Syntax of IMMUTABLE LIST
+// var/val listName = listOf<data_type>("list_of_items")
+// <data_type> can be removed because IDE knows
+
+fun main()
+{
+    val listOfstrings =listOf("Box", "Table", "Chair")
+    println(listOfstrings)
+
+    listOfstrings.get(1)
+    println("${listOfstrings.get(1)}")
+}

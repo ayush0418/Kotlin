@@ -1,0 +1,17 @@
+fun main()
+{
+    val a= 4
+    if(!(a>=0))
+            {
+        println("Value enter is Positive")
+    }
+    else
+    {
+        println("Value enter is Negative ")
+    }
+}
+
+/* 
+OUTPUT
+Value enter is Negative
+*/

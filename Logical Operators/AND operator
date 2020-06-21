@@ -1,0 +1,19 @@
+fun main()
+{
+    val a = 4
+    
+    // AND operator
+    if(a>0 && a<4)                                               
+    {
+      println("The value of integer is between 0-5")
+    }
+    else
+    {
+       println("The value of integer is not between 0-5")
+    }
+}
+
+/*
+OUTPUT
+The value of integer is not between 0-5
+*/

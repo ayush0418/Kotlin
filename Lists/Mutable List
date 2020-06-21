@@ -1,0 +1,20 @@
+// Syntax for creating MUTABLE LISTS
+// var/val listName  = mutableListOf<data_type>("list_of_items")
+// we can avoid the use of <data_type> because the IDE knows
+
+fun main() {
+    val listOfstrings = mutableListOf("Box", "Table", "Chair")
+
+    listOfstrings[1] = "Bed"        // This will change the value stored at 1 to "Bed"
+    listOfstrings.add("Tv")       // This will add on more element to the string
+    listOfstrings.add(2, "Air Conditioner")   // This will add the value stored at 2 to "Pencil" and the element at 2 gets shifted by 1
+    listOfstrings.removeAt(3)                       // This will remove the element which is stored at place 2
+    val arr = arrayOf("Mattress" ,"Light","Fan" )
+    listOfstrings.addAll(arr)       // This will add the array to list
+    print(listOfstrings)
+}
+
+/* 
+OUTPUT
+[Box, Bed, Air Conditioner, Tv, Mattress, Light, Fan]
+*/
